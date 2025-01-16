@@ -1,0 +1,29 @@
+.some-text {
+	font-family: 'Comfortaa', 'Arial', serif;
+	font-weight: 300;
+	line-height: 30px;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.line-through {
+	font-style: normal;
+	text-decoration: line-through;
+}
+
+.transform {
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.text-decoration {
+	text-decoration: overline;
+	text-decoration-style: wavy;
+	word-spacing: 30px;
+	color: #44097a;
+}
+
+.text {
+	letter-spacing: 5px;
+}
