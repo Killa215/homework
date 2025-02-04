@@ -1,0 +1,48 @@
+body {
+	background-color: #1e1e20;
+}
+
+.wrapper {
+	padding: 2vh;
+	height: 100%;
+}
+
+.container {
+	position: relative;
+	height: 100px;
+	background-color: #444;
+}
+
+.white-block {
+	background: #569475;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.white-block {
+	animation: move-block 1.5s 1s infinite alternate,
+		color-block 1.5s 1s infinite alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes move-block {
+	0% {
+		left: 0px;
+	}
+	50% {
+		border-radius: 50%;
+	}
+	100% {
+		left: calc(100% - 100px);
+	}
+}
+
+@keyframes color-block {
+	0% {
+		background-color: #569475;
+	}
+	100% {
+		background-color: #919054;
+	}
+}
